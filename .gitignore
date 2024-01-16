@@ -1,0 +1,29 @@
+# Arquivos Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Dependências do Node.js
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Relatórios Mochawesome
+/mochawesome-report/
+
+# Screenshots gerados pelo Mochawesome
+/cypress/screenshots
+
+# Arquivos de configuração do Mochawesome
+mochawesome.json
+mochawesome-report-generator.json
+
+# Arquivos de configuração do ambiente local
+.env
+.env.local
+.env.*.local
+
+# Ignorar logs
+*.log
+
+# Outros arquivos específicos do ambiente local
+cypress.json
