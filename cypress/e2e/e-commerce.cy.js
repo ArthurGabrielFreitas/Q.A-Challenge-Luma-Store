@@ -13,6 +13,8 @@ describe("Criar conta para testes", () => {
       userTest = objs[rand];
       cy.generatePasswordHash().then((password) => {
         passwordTest = password;
+        // Caso seja necessário os dados do usuário e/ou a senha, descomentar a linha abaixo
+        // console.log("Usuário de teste e senha:\n", userTest, passwordTest);
       });
     });
     cy.visit("/");
@@ -172,7 +174,7 @@ describe("Realizar testes na loja", () => {
     cy.get("header ol li strong a").first().click();
 
     // Clica na aba de reviews
-    cy.get('#tab-label-reviews-title').click();
+    cy.get("#tab-label-reviews-title").click();
 
     // Dá uma nota e preenche os campos da review
     cy.get("#Rating_1_label").click();
