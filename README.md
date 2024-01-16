@@ -18,6 +18,8 @@ Este projeto consiste em scripts de automação de testes para a loja online Lum
 
 ### Instalação e Uso
 
+Obs: Necessário ter npm e [Node.js](https://nodejs.org/en) instalados.
+
 1. Clone o repositório:
 
    ```bash
@@ -42,5 +44,11 @@ Veja o [package.json](./package.json) para mais opções de comandos
 ## Documentação
 
 Documentos detalhados do projeto estão disponíveis na pasta [documents](./documents/)
+
+## Demonstração
+
+Clique [aqui](https://www.loom.com/share/dab21e03b062461b801f0a16f2916e24?sid=d1e58a1a-f079-4664-9bd8-902939b0b2c5) para ver uma explicação e demonstração do projeto em funcionamento.
+
+---
 
 > This is a challenge by [Coodesh](https://coodesh.com/)
